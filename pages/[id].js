@@ -23,7 +23,7 @@ export default function Certificate() {
     const handleFetch = async () => {
       try {
         setLoading(true)
-        const res = await getDoc(doc(db, 'certficates', id))
+        const res = await getDoc(doc(db, 'certificates', id))
         if (res.exists()) {
           setData(res.data())
         } else {

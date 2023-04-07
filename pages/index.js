@@ -28,7 +28,7 @@ export default function Home() {
 
     try {
       setLoading(true)
-      const docSnap = await addDoc(collection(db, 'certficates'), {
+      const docSnap = await addDoc(collection(db, 'certificates'), {
         name,
         type,
         date,
