@@ -60,7 +60,7 @@ export default function Certificate() {
               <strong>{data?.name}</strong> in recognition of their membership
               in our organization,{' '}
               <a
-                href="https://www.canwebe.tech"
+                href="https://www.canwebe.in"
                 target="_blank"
                 rel="noopener noreferrer"
               >
